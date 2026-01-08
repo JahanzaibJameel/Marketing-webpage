@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brooklyn Bagel Co.</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      color: #000;
+    }
+
+    .container {
+      max-width: 600px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      max-width: 220px;
+      width: 100%;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
+    .bagels {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      margin: 24px 0;
+      flex-wrap: nowrap;
+    }
+
+    .bagels img {
+      width: 120px;
+      height: auto;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 15px;
+    }
+
+    .note {
+      margin-top: 16px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 480px) {
+      .bagels {
+        flex-wrap: wrap;
+      }
+
+      .bagels img {
+        width: 45%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="./Brooklyn-Bagel-Co.-Logo.png" alt="Brooklyn Bagel Co" />
+    </div>
+    <p>Poštovani,</p>
+    <p>
+      Brooklyn Bagel Co. je jedina pekara u Hrvatskoj koja proizvodi prave njujorške bagele. Naši bagelovi se izrađuju
+      prema autentičnom receptu s pažljivo odabranim sastojcima. Poput pravih bagela, naši se kuhaju prije pečenja, što
+      im daje jedinstvenu, žvakastu teksturu.
+    </p>
+    <p>
+      Naši bagelovi se proizvode u našem novoizgrađenom pogonu izvan Splita kako bi se osigurala pouzdana isporuka
+      trgovinama, hotelima, restoranima i drugim ugostiteljskim objektima.
+    </p>
+    <div class="bagels">
+      <img src="./Classic-Bagel.jpg" alt="Classic Bagel" />
+      <img src="./Sezam-Bagel.jpg" alt="Sesame Bagel" />
+      <img src="./Mak-Bagel.jpg" alt="Poppy Seed Bagel" />
+      <img src="./Mix-Bagel.jpg" alt="Mix Bagel" />
+    </div>
+    <p>
+      Nudimo četiri vrste bagela: klasične, sjemenke sezama, sjemenke maka i mix (sezam, mak, češnjak, luk i sol)*. Svi
+      proizvodi dostupni su u kartonima od 50, brzo smrznutih komada. Nudimo stabilnu i kontinuiranu proizvodnju. Ako
+      ste zainteresirani da sami isprobate prave bagele, kontaktirajte nas za besplatne uzorke. Radujemo se
+      potencijalnoj suradnji.
+    </p>
+    <div class="footer">
+      <p>Srdačan pozdrav,</p>
+      <p>
+        Jozo Jurišić<br />
+        095 6555 128 | jozo@brooklynbagel.hr
+      </p>
+    </div>
+    <p class="note">* Ovo je naš najpopularniji</p>
+  </div>
+</body>
+
+</html>
