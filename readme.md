@@ -34,8 +34,6 @@ No build tools, server, or installation steps are required.
 
 ---
 
-
-
 ---
 
 ## Customization
