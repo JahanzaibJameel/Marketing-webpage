@@ -34,17 +34,7 @@ No build tools, server, or installation steps are required.
 
 ---
 
-## File Structure
-project-root/
-│
-├── index.html # Main HTML file (provided)
-├── Brooklyn-Bagel-Co.-Logo.png # Company logo
-├── Classic-Bagel.jpg # Classic bagel image
-├── Sezam-Bagel.jpg # Sesame bagel image
-├── Mak-Bagel.jpg # Poppy seed bagel image
-└── Mix-Bagel.jpg # Mix bagel image
 
-text
 
 ---
 
